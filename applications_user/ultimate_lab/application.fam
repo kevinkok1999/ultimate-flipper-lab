@@ -1,0 +1,12 @@
+App(
+    appid="ultimate_lab",
+    name="Ultimate Lab",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ultimate_lab_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="0.1.0",
+    fap_description="Modular Flipper Zero lab for IR, RF receive analysis, NFC/RFID inspection, GPIO and diagnostics",
+    fap_author="Ultimate Flipper Lab",
+)
